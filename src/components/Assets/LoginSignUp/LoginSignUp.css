@@ -1,0 +1,118 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #4403b4; /* Deep purple background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Main container styling */
+  .container {
+    background-color: #979797;
+    
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Header section */
+  .header .text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2e0080;
+  }
+  
+  .header .underline {
+    width: 60px;
+    height: 4px;
+    background-color: #2e0080;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  /* Input fields styling */
+  .inputs {
+    margin-top: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    padding-left: 10px;
+  }
+  
+  .input input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Forgot password link styling */
+  .forget-password {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .forget-password a {
+    color: #2e0080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .forget-password a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submit buttons container */
+  .submit-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submit {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #2e0080;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit:hover {
+    background-color: #280467;
+  }
+  
+  .gray{
+    color: rgb(155, 148, 148);
+    background-color: #e0e0e0;
+  }
